@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea891b000f85a6e4a9765e41ba54f2cf, type: 3}
+  m_Name: SearchForFood
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: f1ed7fb31fe76d646aed32031a9f1651, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: fa6285603a6296a4e84d601f4f8483d9, type: 2}
+    trueState: {fileID: 11400000, guid: 052fc0518a2bdb14eb55e0e73db56884, type: 2}
+    falseState: {fileID: 11400000, guid: 233e7188d00c24845863af1d09ff4f9f, type: 2}
+  sceneGizmoColor: {r: 0.040236473, g: 1, b: 0, a: 1}
